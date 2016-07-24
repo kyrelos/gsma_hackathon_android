@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">GsmaHakathon</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_landing">Tigo Pesa Wallet</string>
+    <string name="title_activity_consumer">Consumer Menu</string>
+    <string name="title_activity_agent">Agent Menu</string>
+    <string name="title_activity_consumer_withdraw">Agent Withdrawal</string>
+    <string name="title_activity_consumer_send">Send Money</string>
+    <string name="title_activity_consumer_statement">Mini Statement</string>
+    <string name="title_activity_deposit">Deposit</string>
+</resources>
