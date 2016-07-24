@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="fill_parent"
+    android:background="?colorPrimaryDark"
+    android:orientation="vertical">
+
+
+    <LinearLayout
+        android:id="@+id/navlayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#262626"
+            android:clickable="true"
+            android:id="@+id/toProfile"
+            android:onClick="toProfile"
+            android:orientation="horizontal">
+
+
+            <ImageView
+                android:layout_width="48dp"
+                android:layout_height="48dp"
+                android:layout_marginLeft="@dimen/activity_horizontal_margin"
+                android:layout_marginTop="@dimen/activity_horizontal_margin"
+                android:src="@mipmap/ic_launcher" />
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:padding="@dimen/activity_horizontal_margin">
+
+                    <TextView
+                        android:id="@+id/drawerNametextView"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Kyrelos Obat"
+                        android:textAppearance="?android:attr/textAppearanceMedium"
+                        android:textColor="#ccc" />
+
+                    <TextView
+                        android:id="@+id/drawerPhoneTextView"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="8dp"
+                        android:text="Phone: 0722222222"
+                        android:textAppearance="?android:attr/textAppearanceSmall"
+                        android:textColor="#999"
+                        android:textSize="12sp" />
+
+
+                </LinearLayout>
+            </RelativeLayout>
+        </LinearLayout>
+
+
+
+        <ListView
+            android:id="@+id/navlist"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:choiceMode="singleChoice"
+            android:divider="@android:color/white"
+            android:transcriptMode="alwaysScroll"
+            android:dividerHeight="0dp"
+            android:drawSelectorOnTop="false">
+
+        </ListView>
+
+
+    </LinearLayout>
+
+
+
+
+</RelativeLayout>
